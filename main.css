@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding:0;
+	overflow-x: hidden;
 }
 
 a:link, a:visited{
@@ -8,6 +9,25 @@ a:link, a:visited{
 }
 a:hover, a:active{
 	color:#F6E0C0;
+}
+
+#soporte-tecnico-especializado{
+	color:white;
+	text-align: center;
+	margin-top: -0.5%;
+	margin-bottom: 1%; 
+}
+
+h1{
+	
+	text-align: center;
+	color:white;
+}
+
+#soporte-tecnico{
+	padding-top:4%;
+	padding-bottom: 4%;
+	background-color: rgba(59,59,59,0.53);
 }
 
 #covid{
@@ -18,6 +38,25 @@ a:hover, a:active{
 	font-weight: bold;
 	padding: 0.3% 0 0.3% 0;
 }
+
+#background_image{
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	position: fixed;
+}
+
+.btn-warning, .btn-warning:visited {
+    background-color: #EBB86B !important;
+    border-color: #ebb76a !important;
+}
+.btn-warning:hover, .btn-warning:active{
+	background-color: #A26D32 !important;
+	border-color: #A26D32 !important;
+	color:white;
+}
+
 
 nav{
 	background-color: #F6E0C0;
