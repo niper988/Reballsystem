@@ -1,0 +1,24 @@
+{
+  "name": "reballsystem",
+  "version": "1.0.0",
+  "description": "Servicio tecnico especializado electronico.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niper988/Reballsystem.git"
+  },
+  "author": "Nicolas Perdomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niper988/Reballsystem/issues"
+  },
+  "homepage": "https://github.com/niper988/Reballsystem#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

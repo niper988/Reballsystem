@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+a:link, a:visited{
+	color:#F6E0C0;
+}
+a:hover, a:active{
+	color:#F6E0C0;
+}
+
+#covid{
+	background-color: #99151E;
+	color:white;
+	font-family: "serif","Helvica","Montreal";
+	text-align: center;
+	font-weight: bold;
+	padding: 0.3% 0 0.3% 0;
+}
+
+nav{
+	background-color: #F6E0C0;
+	text-align: center;
+}
+
+#titulo{
+	color:#996515;
+	font-size: 115%;
+	font-weight: bold;
+}
+
+.nav_1{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+.nav_2{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+.nav_3{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+.margin_nav{
+	 margin-right: 3%;
+}
+
