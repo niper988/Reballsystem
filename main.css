@@ -33,6 +33,11 @@ a:hover, a:active{
 
 }
 
+.tarjetas-reparacion{
+	background-color: grey;
+	border-radius: 2em;
+}
+
 .tarjetas{
 	background-color: white;
 	border-radius: 2em;
@@ -44,6 +49,7 @@ a:hover, a:active{
 }
 
 .reparacion-iconos{
+	margin-top: 5%;
 	width: 25%;
 	height: auto;
 	margin-bottom: 8%;
@@ -51,6 +57,7 @@ a:hover, a:active{
 
 .reparacion-texto{
 	margin-bottom: 10%;
+	padding-bottom: 5%;
 }
 
 #servicios-de-reparacion{
