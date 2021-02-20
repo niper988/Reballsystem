@@ -4,6 +4,19 @@ body{
 	overflow-x: hidden;
 }
 
+form{
+	background-color: white;
+	border:1px solid black;
+	border-radius: 2em;
+	padding:4%;
+	margin-left:25%;
+	width: 50%
+}
+
+.text-area{
+	resize: vertical;
+}
+
 a:link, a:visited{
 	color:#F6E0C0;
 }
@@ -11,6 +24,20 @@ a:hover, a:active{
 	color:#F6E0C0;
 }
 
+h2{
+	padding-top: 5%;
+	padding-bottom:3%;
+}
+
+#ubicacion{
+	padding-top: 15%;
+	padding-bottom: 20%;
+	background-color: rgba(59,59,59,0.53);
+}
+
+.contactos{
+	background-color: #F6E0C0
+}
 #soporte-tecnico-especializado{
 	color:white;
 	text-align: center;
