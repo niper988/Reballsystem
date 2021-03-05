@@ -13,22 +13,52 @@
   </head>
   <body>
   	<div id="covid">Actualizaci&oacute;n COVID-19: Seguimos abiertos en horarios regulares. Ver m&aacute;s detalles <a href="#">aqu&iacute;</a></div>
-  	<nav class="fluid-container">
-  		<div class="row">
-  			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 nav_1"><div id="titulo">REBALLSYSTEM</div></div>
-  			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 nav_2">
-  				<div class="row">
-  					
-  					<div class="col-lg-3">Principal</div>
-  					<div class="col-lg-3">Reparaci&oacute;n</div>
-  					<div class="col-lg-3">Servicios</div>
-  					<div class="col-lg-3">Contactos</div>
-  					
-  				</div>
+
+  	<div class="fluid-container">
+  		<div class="row reballsystem">
+  			<div class="col-xs-1 col-sm-1col-md-1 col-lg-1"></div>
+  			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="font-size: 1.4em">Reballsystem</div>
+  			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+  			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+  				<img class="img-fluid" src="img/icons/phonew.png" alt="phone-icon" style="max-width: 5%" height="auto">
+  				<span>312</span>
   			</div>
-  			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 nav_3"><img src="img/icons/phone.png" width="5%" alt="telefono" class="margin_nav"><span style="color:#996515" class="margin_nav">(+57) 318 634 6377</span><img src="img/icons/facebook.png" width="7%" class="margin_nav" alt="facebook-icon"><img src="img/icons/instagram.png" width="7%" class="margin_nav" alt="instagram-icon"></div>
+  			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
   		</div>
-  	</nav>
+  	</div>
+
+  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Navbar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Link</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Dropdown
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
   	<div class="fluid-container">
   		<div class="row">
   			<div class="col-xs-12 col-lg-12">
@@ -36,13 +66,14 @@
   			</div>
   				<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 text-center">
 	  				<div id="soporte-tecnico">
-	  					<h1>Soporte T&eacute;cnico De Sistemas</h1>
-	  					<div id="soporte-tecnico-especializado">servicio soporte t&eacute;cnico especializado</div>
-	  					<a href="#formulario">
+	  					<h1 style="color:white;">Soporte T&eacute;cnico De Sistemas</h1>
+	  					<div id="soporte-tecnico-especializado">servicio soporte t&eacute;cnico especializado</div>	
                 <div>
-                  <button type="button" class="btn btn-warning">Ponte en contacto</button>
+                	<a href="#formulario">
+                  		<button type="button" class="btn btn-warning">Ponte en contacto</button>
+                  	</a>
                 </div>
-              </a>
+              
   					</div>
   				</div>
   			</div>
@@ -53,18 +84,18 @@
   			<div class="col-xs-12 col-lg-12" id="escoje-tu-dispositivo">escoje tu dispositivo</div>
 
 	  			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" onmouseenter ="CambiarColor1()" onmouseleave="SalirColor1()">
-	  				<div class="tarjetas-reparacion" id="portatil" >
+	  				<div class="tarjetas-reparacion" id="computador" >
               <a href="#" style="color: black;">
-		  				<img class="reparacion-iconos img-fluid" src="img/icons/portatil.png" alt="Portatil-icon">
-		  				  <div class="reparacion-texto">Portatil</div>
+		  				<img class="reparacion-iconos img-fluid" src="img/icons/computador.png" alt="Computador-icon">
+		  				  <div class="reparacion-texto">Computador</div>
               </a>
 		  			</div>
 	  			</div>
 	  			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" onmouseenter ="CambiarColor2()" onmouseleave="SalirColor2()">
-	  				<div class="tarjetas-reparacion" id="telefono" >
+	  				<div class="tarjetas-reparacion" id="portatil" >
               <a href="#" style="color: black;">
-		  				<img class="reparacion-iconos img-fluid" src="img/icons/smartphone.png" alt="Celular-icon">
-		  				  <div class="reparacion-texto">Celular</div>
+		  				<img class="reparacion-iconos img-fluid" src="img/icons/portatil.png" alt="Portatil-icon">
+		  				  <div class="reparacion-texto">Portatil</div>
               </a>
 	  				</div>
 	  			</div>
