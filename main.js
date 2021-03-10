@@ -70,3 +70,39 @@ function SalirColor6() {
 		}
 
 
+function CambiarColorTarjeta1(){
+	bg = document.getElementById("tarjeta-1");
+			bg.style.backgroundColor = "#E5E4E2";
+			bg.style.fontWeight="bold";
+}
+
+function SalirColorTarjeta1(){
+	bg = document.getElementById("tarjeta-1");
+			bg.style.backgroundColor = "#C4B4A1";
+			bg.style.fontWeight="normal";
+}
+
+
+function CambiarColorTarjeta2(){
+	bg = document.getElementById("tarjeta-2");
+			bg.style.backgroundColor = "#E5E4E2";
+			bg.style.fontWeight="bold";
+}
+
+function SalirColorTarjeta2(){
+	bg = document.getElementById("tarjeta-2");
+			bg.style.backgroundColor = "#C4B4A1";
+			bg.style.fontWeight="normal";
+}
+
+function CambiarColorTarjeta3(){
+	bg = document.getElementById("tarjeta-3");
+			bg.style.backgroundColor = "#E5E4E2";
+			bg.style.fontWeight="bold";
+}
+
+function SalirColorTarjeta3(){
+	bg = document.getElementById("tarjeta-3");
+			bg.style.backgroundColor = "#C4B4A1";
+			bg.style.fontWeight="normal";
+}

@@ -4,6 +4,10 @@ body{
 	overflow-x: hidden;
 }
 
+.navbar{
+	background-color: #F8F8F8 !important;
+}
+
 .reballsystem{
 	background-color: #002366;
 	color:white;
@@ -34,7 +38,7 @@ a:hover, a:active{
 }
 
 h2{
-	color:white;
+	color:black;
 	padding-top: 5%;
 	padding-bottom:3%;
 }
@@ -46,7 +50,7 @@ h2{
 }
 
 .contactos{
-	background-color: #A69B8E;
+	background-color: #C4B4A1;
 }
 
 
@@ -79,7 +83,7 @@ h2{
 }
 
 .tarjetas{
-	background-color: #A69B8E;
+	background-color: #C4B4A1;
 	border-radius: 2em;
 }
 
@@ -105,7 +109,7 @@ h2{
 	color:black;
 }
 
-#escoje-tu-dispositivo{
+#escoge-tu-dispositivo{
 	margin-top: -0.5%;
 	color:black;
 	font-weight: lighter;
@@ -113,7 +117,7 @@ h2{
 }
 
 #servicio-tecnico-especializado{
-	background-color: #C4B4A1;
+	background-color: #A69B8E  ;
 }
 
 h1{
@@ -174,3 +178,30 @@ h1{
 }
 
 
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+ @media screen and (min-width: 0px) and (max-width: 992px){ 
+      #menu{
+      	display: block;
+      }
+  }
+
+  @media screen and (min-width: 993px){ 
+      #menu{
+      	display: none;
+      }
+  }
