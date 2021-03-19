@@ -106,3 +106,29 @@ function SalirColorTarjeta3(){
 			bg.style.backgroundColor = "#C4B4A1";
 			bg.style.fontWeight="normal";
 }
+
+function whatsapp(){
+	var a= "img/icons/phonec";
+	document.getElementById("whatsapp").src= a + ".png";
+}
+function salirwhatsapp(){
+	var a= "img/icons/phone";
+	document.getElementById("whatsapp").src= a + ".png";
+}
+function facebook(){
+	var a= "img/icons/facebookc";
+	document.getElementById("facebook").src= a + ".png";
+}
+function salirfacebook(){
+	var a= "img/icons/facebookw";
+	document.getElementById("facebook").src= a + ".png";
+}
+function instagram(){
+	var a= "img/icons/instagramc";
+	document.getElementById("instagram").src= a + ".png";
+}
+function salirinstagram(){
+	var a= "img/icons/instagramw";
+	document.getElementById("instagram").src= a + ".png";
+}
+

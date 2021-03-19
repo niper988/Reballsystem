@@ -15,6 +15,13 @@ body{
 	padding-top:2%;
 }
 
+.texto-servicios{
+	margin-bottom: 10%;
+	margin-left:25%;
+	margin-right: 25%;
+	font-size: 1.1em;
+}
+
 
 form{
 	background-color: white;
@@ -26,15 +33,36 @@ form{
 	margin-bottom:4%;
 }
 
+.historia{
+	background-color:#E5E4E2; 
+}
+
+.pagina-reballing{
+	background-color: white;
+}
+
+
+#numero-whatsapp:hover, #numero-whatsapp:active{
+	color: #C9FFC7;
+}
+
+.menu-desplegable:hover, .menudesplegable:active{
+	color:black !important;
+	background-color: #FFF5ED;
+}
+
 .text-area{
 	resize: vertical;
 }
 
 a:link, a:visited{
-	color:#edb791;
+	color:white;
+	text-decoration: none;
+	text-decoration-line: none;
 }
 a:hover, a:active{
 	color:#edb791;
+
 }
 
 h2{
@@ -194,6 +222,25 @@ h1{
     position:absolute;
 }
 
+/*BreakPoints Bootstrap =
+xm:
+@media (max-width:576px){
+}
+
+sm:
+@media (min-width:577px) and (max-width:768px){
+}
+
+md:
+@media (min-width:769px) and (max-width:992px){
+}
+
+lg:
+@media (min-width:993px){	
+}
+
+*/
+
  @media screen and (min-width: 0px) and (max-width: 992px){ 
       #menu{
       	display: block;
@@ -205,3 +252,9 @@ h1{
       	display: none;
       }
   }
+
+  @media (max-width:576px){
+  	#numero-whatsapp{
+  		
+  	}
+}
