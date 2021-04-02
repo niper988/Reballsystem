@@ -17,9 +17,9 @@
   	<div class="fluid-container">
   		<div class="row reballsystem">
   			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-  			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center" style="font-size: 1.4em"><img src="img/icons/reballcpu.png" class="img-fluid" alt="logo-reballingsystem" width="9%" style="margin-top: -2%; margin-right: 5%"><a href="index.html">Reballsystem</a></div>
+  			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center reball-top" style="font-size: 1.4em"><img src="img/icons/reballcpu.png" class="img-fluid" alt="logo-reballingsystem" width="9%" style="margin-top: -2%; margin-right: 5%"><a href="index.html">Reballsystem</a></div>
   			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
-  			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+  			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center redes">
 
   				<a href="https://wa.me/573186346377" onmouseenter="whatsapp()" onmouseleave="salirwhatsapp()"  id="numero-whatsapp" target="_blank">
   					<img class="img-fluid" src="img/icons/phone.png" alt="phone-icon" style="max-width: 7%" height="auto" id="whatsapp">
@@ -61,7 +61,7 @@
 	          <div class="dropdown-divider"></div>
 	          <a class="dropdown-item menu-desplegable" href="reparacion-panel-led.html" style="color: grey">Reparaci&oacute;n panel LED y LCD</a>
 	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item menu-desplegable" href="diseno-grabado-pbc.html" style="color: grey">Dise&ntilde;o y grabado PBC</a>
+	          <a class="dropdown-item menu-desplegable" href="diseno-grabado-pbc.html" style="color: grey">Dise&ntilde;o y grabado PCB</a>
 	        </div>
 	      </li>
 	      <li class="nav-item">
@@ -78,7 +78,7 @@
   			</div>
   				<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 text-center">
 	  				<div id="soporte-tecnico">
-	  					<h1 style="color:white;">Soporte T&eacute;cnico De Sistemas</h1>
+	  					<h1 style="color:white;">Soluciones Electr&oacute;nicas</h1>
 	  					<div id="soporte-tecnico-especializado">servicio soporte t&eacute;cnico especializado</div>	
                 <div>
                 	<a href="#formulario">
@@ -94,10 +94,10 @@
   		<div class="fluid-container historia">
   			<div class="row">
   				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
-  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="margin-top: 5%; font-size: 2em; margin-bottom: 4%;">Grabado en PBC</div>
+  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center reball-esp" style="margin-top: 5%; font-size: 2em; margin-bottom: 4%;">Grabado en PCB</div>
   				
   				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"><div style="margin-bottom: 5%;">
-  					<img src="img/grabarpbc.jpeg" alt="grabado-en-pbc-image" class="img-fluid" width="50%" height="auto"></div></div>
+  					<img src="img/grabarpbc.jpeg" id="img-grabar" alt="grabado-en-pbc-image" class="img-fluid" width="50%" height="auto"></div></div>
           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
   				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><div class="texto-servicios">
   					¿Qué es un PCB? 
@@ -114,40 +114,41 @@
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div>
-              <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">Ponte en contacto<hr></h2>
+              <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ponte-en-contacto">Ponte en contacto<hr></h2>
 
-
-              <form action="https://formspree.io/f/meqpwwvb" method="post" target="_blank" > <!-- 1. Incluir la direccion electronica del repositorio-->
-                <div class="form-row form-group" id="formulario">
-                  <div class="form-group col-md-6">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" name="Nombre">
+              <div id="contenido-formulario">
+                <form action="https://formspree.io/f/meqpwwvb" method="post" target="_blank"> <!-- 1. Incluir la direccion electronica del repositorio-->
+                  <div class="form-row form-group formulario">
+                    <div class="form-group col-md-6">
+                      <label for="nombre">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" name="Nombre">
+                    </div>
+                    <div class="form-group col-md-6 ">
+                      <label for="celular">Celular</label>
+                      <input type="number" class="form-control" id="celular" placeholder="Numero celular" name="Celular">
+                    </div>
                   </div>
-                  <div class="form-group col-md-6 ">
-                    <label for="celular">Celular</label>
-                    <input type="number" class="form-control" id="celular" placeholder="Numero celular" name="Celular">
+                  <div class="form-group" id="formulario-email">
+                    <label for="correo-electronico">Email</label>
+                    <input type="email" class="form-control" id="correo-electronico" placeholder="Correo electronico" name="Correo electronico">
                   </div>
-                </div>
-                <div class="form-group">
-                  <label for="correo-electronico">Email</label>
-                  <input type="email" class="form-control" id="correo-electronico" placeholder="Correo electronico" name="Correo electronico">
-                </div>
-                <div class="form-group">
-                  <label for="mensaje">Mensaje</label>
-                  <textarea type ="text" class="form-control rounded-0" id="mensaje" rows="3" placeholder="Ej: ¨Buenos dias, estoy interesado en su sercivio de reparaci&oacute;n / grabado en PBC / reballing..¨" name="Mensaje"></textarea>
-                </div>
-                <div class="form-row form-group">
-                  <div class="form-group col-md-6">
-                    <label for="ciudad">Ciudad</label>
-                    <input type="text" class="form-control" id="ciudad" name="Ciudad">
+                  <div class="form-group" id="formulario-mensaje">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea type ="text" class="form-control rounded-0" id="mensaje" rows="3" placeholder="Ej: ¨Buenos dias, estoy interesado en su sercivio de reparaci&oacute;n / grabado en PBC / reballing..¨" name="Mensaje"></textarea>
                   </div>
-                  <div class="form-group col-md-4 form-group">
-                    <label for="departamento">Departamento</label>
-                    <input type="text" id="departamento" class="form-control text-area" name="Departamento">
+                  <div class="form-row form-group">
+                    <div class="form-group col-md-6" id="formulario-ciudad">
+                      <label for="ciudad">Ciudad</label>
+                      <input type="text" class="form-control" id="ciudad" name="Ciudad">
+                    </div>
+                    <div class="form-group col-md-4 form-group" id="formulario-departamento">
+                      <label for="departamento">Departamento</label>
+                      <input type="text" id="departamento" class="form-control text-area" name="Departamento">
+                    </div>
                   </div>
-                </div>
-                <button type="submit" value="submit" class="btn btn-primary">Enviar</button>
-            </form>
+                  <button type="submit" value="submit" class="btn btn-primary" id="formulario-enviar">Enviar</button>
+              </form>
+          </div>
 
 
             </div>
